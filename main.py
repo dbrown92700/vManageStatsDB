@@ -40,7 +40,6 @@ if __name__ == '__main__':
     }
     filename = f'statsdb_{Now.year}-{Now.month:02}-{Now.day:02}_{Now.hour:02}-{Now.minute:02}.txt'
     with open(file_directory+filename, 'w') as file:
-        file.write('Reachable Edges:\n')
         file.write(json.dumps(data, indent=2))
 
 # [END gae_python3_app]
