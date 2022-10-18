@@ -38,8 +38,8 @@ if __name__ == '__main__':
         'dbSize': elasticsearch,
         'dbEstimate': estimate
     }
-    filename = f'statsdb_{Now.year}-{Now.month:02}-{Now.day:02}_{Now.hour:02}:{Now.minute:02}.txt'
-    with open(filename, 'w') as file:
+    filename = f'statsdb_{Now.year}-{Now.month:02}-{Now.day:02}_{Now.hour:02}-{Now.minute:02}.txt'
+    with open(file_directory+filename, 'w') as file:
         file.write('Reachable Edges:\n')
         file.write(json.dumps(data, indent=2))
 
