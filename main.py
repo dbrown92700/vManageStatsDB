@@ -18,7 +18,7 @@ __copyright__ = "Copyright (c) 2012 Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.1"
 
 from vmanage_api import rest_api_lib
-from vmanage_info import *
+from includes import *
 from datetime import datetime
 import json
 
@@ -28,10 +28,12 @@ if __name__ == '__main__':
     edges = vmanage.get_request('/device')
     vmanage.logout()
     Now = datetime.now()
-    with open(f'statsdb_{Now.year}-{Now.month}-{Now.day}_{Now.hour}:{Now.minute}.txt', 'w') as file:
+    filename = f'statsdb_{Now.year}-{Now.month:02}-{Now.day:02}_{Now.hour:02}:{Now.minute:02}.txt'
+    with open(filename, 'w') as file:
         file.write('Reachable Edges:\n')
         for device in edges['data']:
             if device['reachability'] == 'reachable' and device['personality'] == 'vedge':
                 file.write(f"  {device['host-name']}\n")
         file.write(json.dumps(estimate, indent=2))
+
 # [END gae_python3_app]
