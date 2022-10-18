@@ -25,15 +25,22 @@ import json
 if __name__ == '__main__':
     vmanage = rest_api_lib(vmanage_ip, vmanage_user, vmanage_password)
     estimate = vmanage.get_request('/management/elasticsearch/index/size/estimate')
+    elasticsearch = vmanage.get_request('/management/elasticsearch/index/size')
     edges = vmanage.get_request('/device')
     vmanage.logout()
     Now = datetime.now()
+    edge_list = []
+    for device in edges['data']:
+        if device['reachability'] == 'reachable' and device['personality'] == 'vedge':
+            edge_list.append(device['host-name'])
+    data = {
+        'activeEdges': edge_list,
+        'dbSize': elasticsearch,
+        'dbEstimate': estimate
+    }
     filename = f'statsdb_{Now.year}-{Now.month:02}-{Now.day:02}_{Now.hour:02}:{Now.minute:02}.txt'
     with open(filename, 'w') as file:
         file.write('Reachable Edges:\n')
-        for device in edges['data']:
-            if device['reachability'] == 'reachable' and device['personality'] == 'vedge':
-                file.write(f"  {device['host-name']}\n")
-        file.write(json.dumps(estimate, indent=2))
+        file.write(json.dumps(data, indent=2))
 
 # [END gae_python3_app]
