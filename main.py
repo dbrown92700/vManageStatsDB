@@ -34,6 +34,7 @@ if __name__ == '__main__':
         if device['reachability'] == 'reachable' and device['personality'] == 'vedge':
             edge_list.append(device['host-name'])
     data = {
+        'timestamp': Now,
         'activeEdges': edge_list,
         'dbSize': elasticsearch,
         'dbEstimate': estimate
