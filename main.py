@@ -21,6 +21,7 @@ from vmanage_api import rest_api_lib
 from includes import *
 from datetime import datetime
 import json
+from calendar import timegm
 
 if __name__ == '__main__':
     vmanage = rest_api_lib(vmanage_ip, vmanage_user, vmanage_password)
@@ -34,7 +35,7 @@ if __name__ == '__main__':
         if device['reachability'] == 'reachable' and device['personality'] == 'vedge':
             edge_list.append(device['host-name'])
     data = {
-        'timestamp': Now,
+        'timestamp': timegm(Now.timetuple()),
         'activeEdges': edge_list,
         'dbSize': elasticsearch,
         'dbEstimate': estimate
