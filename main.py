@@ -21,7 +21,6 @@ from vmanage_api import rest_api_lib
 from includes import *
 from datetime import datetime
 import json
-from calendar import timegm
 
 if __name__ == '__main__':
     vmanage = rest_api_lib(vmanage_ip, vmanage_user, vmanage_password)
@@ -41,7 +40,7 @@ if __name__ == '__main__':
         'dbEstimate': estimate
     }
     filename = f'statsdb_{Now.year}-{Now.month:02}-{Now.day:02}_{Now.hour:02}-{Now.minute:02}.txt'
-    with open(file_directory+filename, 'w') as file:
+    with open(f'{file_directory}/{filename}', 'w') as file:
         file.write(json.dumps(data, indent=2))
 
 # [END gae_python3_app]
