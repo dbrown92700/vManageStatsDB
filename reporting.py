@@ -1,10 +1,7 @@
 #!python3
 
 import os, json, datetime
-from includes import file_directory
-
-target_count = 750
-edge_name = 'sdw1'
+from settings import *
 
 files = os.listdir(file_directory)
 stat_files = []

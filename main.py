@@ -18,7 +18,7 @@ __copyright__ = "Copyright (c) 2012 Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.1"
 
 from vmanage_api import rest_api_lib
-from includes import *
+from settings import *
 from datetime import datetime
 import json
 
