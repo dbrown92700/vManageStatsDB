@@ -1,0 +1,913 @@
+{
+  "timestamp": 1706653186,
+  "activeEdges": [
+    "ATL-ESX-C8K",
+    "Branch-BOS-1",
+    "Branch-DFW-1",
+    "Branch-LAS-1",
+    "Branch-MEX-1",
+    "Branch-MEX-2",
+    "Branch-MIA-1",
+    "Branch-MIA-2",
+    "Branch-PHL-1",
+    "C8K-SD-Routing",
+    "davibrow-ISR1100-4G"
+  ],
+  "dbSize": {
+    "indexSize": [
+      {
+        "mappingVersion": "1.0",
+        "@rid": 39,
+        "indexName": "utddaqioxstatistics",
+        "displayName": "UtdDaqIox",
+        "sizeInGB": 5,
+        "currentSize": "0.0042gb"
+      },
+      {
+        "mappingVersion": "1.7",
+        "@rid": 15,
+        "indexName": "dpistatistics",
+        "displayName": "SAIE",
+        "sizeInGB": 5,
+        "currentSize": "0.0009gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 19,
+        "indexName": "sleofflinereport",
+        "displayName": "Sleofflinereport",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 35,
+        "indexName": "umbrella",
+        "displayName": "Umbrella",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 45,
+        "indexName": "nwpi",
+        "displayName": "Network-wide Packet Insight",
+        "sizeInGB": 5,
+        "currentSize": "0.0108gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 7242,
+        "indexName": "devicehealthstatistics",
+        "displayName": "DeviceHealth",
+        "sizeInGB": 5,
+        "currentSize": "0.0533gb"
+      },
+      {
+        "mappingVersion": "1.1",
+        "@rid": 10,
+        "indexName": "eioltestatistics",
+        "displayName": "EIO",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 7241,
+        "indexName": "sitehealthstatistics",
+        "displayName": "SiteHealth",
+        "sizeInGB": 5,
+        "currentSize": "0.0315gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 14,
+        "indexName": "bridgemacstatistics",
+        "displayName": "BridgeMac",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 12,
+        "indexName": "qosstatistics",
+        "displayName": "QoS",
+        "sizeInGB": 5,
+        "currentSize": "0.0121gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 48,
+        "indexName": "artstatistics",
+        "displayName": "Artstatistics",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.3",
+        "@rid": 7238,
+        "indexName": "umtsmonitor",
+        "displayName": "umts-monitoring",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 47,
+        "indexName": "nwpiflowraw",
+        "displayName": "NWPI Raw Flow Data",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 50,
+        "indexName": "speedtest",
+        "displayName": "Speed Test",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.3",
+        "@rid": 44,
+        "indexName": "aggregatedappsdpistatistics",
+        "displayName": "Aggregated SAIE",
+        "sizeInGB": 5,
+        "currentSize": "4.8806gb"
+      },
+      {
+        "mappingVersion": "1.1",
+        "@rid": 13,
+        "indexName": "devicesystemstatusstatistics",
+        "displayName": "Device System Status",
+        "sizeInGB": 5,
+        "currentSize": "4.9098gb"
+      },
+      {
+        "mappingVersion": "1.3",
+        "@rid": 27,
+        "indexName": "urlf",
+        "displayName": "Urlf",
+        "sizeInGB": 5,
+        "currentSize": "0.0074gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 531,
+        "indexName": "trackerstatistics",
+        "displayName": "Tracker Statistics",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 7237,
+        "indexName": "perfmonstatistics",
+        "displayName": "Performance Monitor",
+        "sizeInGB": 5,
+        "currentSize": "0.0021gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 25,
+        "indexName": "alarm",
+        "displayName": "Alarm",
+        "sizeInGB": 5,
+        "currentSize": "0.0156gb"
+      },
+      {
+        "mappingVersion": "1.1",
+        "@rid": 780,
+        "indexName": "perfmonsummary",
+        "displayName": "Performance Monitor Summary",
+        "sizeInGB": 5,
+        "currentSize": "0.0026gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 11,
+        "indexName": "sulstatistics",
+        "displayName": "Security Unified Logging",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.3",
+        "@rid": 37,
+        "indexName": "apphostingstatistics",
+        "displayName": "AppHosting",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.3",
+        "@rid": 7239,
+        "indexName": "umtstunnelslachange",
+        "displayName": "umts-event-tunnel-sla-change",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.1",
+        "@rid": 29,
+        "indexName": "fwall",
+        "displayName": "Firewall",
+        "sizeInGB": 5,
+        "currentSize": "2.1352gb"
+      },
+      {
+        "mappingVersion": "1.3",
+        "@rid": 18,
+        "indexName": "deviceevents",
+        "displayName": "Device Events",
+        "sizeInGB": 5,
+        "currentSize": "1.2055gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 33,
+        "indexName": "auditlog",
+        "displayName": "Audit Log",
+        "sizeInGB": 5,
+        "currentSize": "0.0362gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 46,
+        "indexName": "bridgeinterfacestatistics",
+        "displayName": "Bridge Interface",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.1",
+        "@rid": 31,
+        "indexName": "vnfstatistics",
+        "displayName": "vnf statistics",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 23,
+        "indexName": "flowlogstatistics",
+        "displayName": "Flow Log",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.1",
+        "@rid": 9,
+        "indexName": "interfacestatistics",
+        "displayName": "Interface",
+        "sizeInGB": 5,
+        "currentSize": "3.1137gb"
+      },
+      {
+        "mappingVersion": "1.1",
+        "@rid": 41,
+        "indexName": "deviceconfiguration",
+        "displayName": "Device Configuration",
+        "sizeInGB": 5,
+        "currentSize": "0.0026gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 21,
+        "indexName": "wlanclientinfostatistics",
+        "displayName": "Wlan Client Info",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.3",
+        "@rid": 7243,
+        "indexName": "umtstunnelpmtuchange",
+        "displayName": "umts-event-tunnel-pmtu-change",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 558,
+        "indexName": "sdrastatistics",
+        "displayName": "SDRA",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.3",
+        "@rid": 7240,
+        "indexName": "umtsrestevent",
+        "displayName": "UMTS Rest Event",
+        "sizeInGB": 5,
+        "currentSize": "0.0061gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 580,
+        "indexName": "aggregatedappsdpisummary",
+        "displayName": "Aggregated SAIE Summary",
+        "sizeInGB": 5,
+        "currentSize": "0.02gb"
+      },
+      {
+        "mappingVersion": "1.4",
+        "@rid": 49,
+        "indexName": "cloudxstatistics",
+        "displayName": "CloudExpress",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.1",
+        "@rid": 43,
+        "indexName": "ipsalert",
+        "displayName": "IPS Alert",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 16,
+        "indexName": "approutestatsstatistics",
+        "displayName": "Approute",
+        "sizeInGB": 5,
+        "currentSize": "3.033gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 770,
+        "indexName": "nwpi_agg_metrics",
+        "displayName": "nwpi_agg_metrics",
+        "sizeInGB": 5,
+        "currentSize": "0.0006gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 602,
+        "indexName": "nwpi_flow_event",
+        "displayName": "nwpi_flow_event",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      },
+      {
+        "mappingVersion": "1.0",
+        "@rid": 604,
+        "indexName": "nwpi_flow",
+        "displayName": "nwpi_flow",
+        "sizeInGB": 5,
+        "currentSize": "0gb"
+      }
+    ],
+    "availableSpaceInGB": 117.4825,
+    "elasticUsedSpaceInGB": 19.48
+  },
+  "dbEstimate": [
+    {
+      "Total disk space": {
+        "1 day   ": "24.63 GB",
+        "7 days  ": "172.41 GB",
+        "14 days ": "344.81 GB",
+        "30 days ": "738.88 GB",
+        "90 days ": "2.16 TB",
+        "180 days": "4.33 TB",
+        "1 year  ": "8.78 TB"
+      }
+    },
+    {
+      "Per index disk space ": [
+        {
+          "index": "Performance Monitor",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 1,
+            "Total records": 1,
+            "Average records per day ": 8346,
+            "Average size per record ": "262 Bytes",
+            "Average Size per day ": "2.14 MB"
+          },
+          "estimation": {
+            "1 day   ": "2.14 MB",
+            "7 days  ": "14.98 MB",
+            "14 days ": "29.95 MB",
+            "30 days ": "64.18 MB",
+            "90 days ": "192.55 MB",
+            "180 days": "385.11 MB",
+            "1 year  ": "780.92 MB"
+          }
+        },
+        {
+          "index": "Interface",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 71,
+            "Total records": 71,
+            "Average records per day ": 140,
+            "Average size per record ": "326.50 KB",
+            "Average Size per day ": "44.91 MB"
+          },
+          "estimation": {
+            "1 day   ": "44.91 MB",
+            "7 days  ": "314.35 MB",
+            "14 days ": "628.70 MB",
+            "30 days ": "1.32 GB",
+            "90 days ": "3.95 GB",
+            "180 days": "7.89 GB",
+            "1 year  ": "16.01 GB"
+          }
+        },
+        {
+          "index": "umts-monitoring",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "EIO",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "Security Unified Logging",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "QoS",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 71,
+            "Total records": 71,
+            "Average records per day ": 140,
+            "Average size per record ": "1.27 KB",
+            "Average Size per day ": "178.29 KB"
+          },
+          "estimation": {
+            "1 day   ": "178.29 KB",
+            "7 days  ": "1.22 MB",
+            "14 days ": "2.44 MB",
+            "30 days ": "5.22 MB",
+            "90 days ": "15.67 MB",
+            "180 days": "31.34 MB",
+            "1 year  ": "63.55 MB"
+          }
+        },
+        {
+          "index": "Device System Status",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 61,
+            "Total records": 61,
+            "Average records per day ": 163,
+            "Average size per record ": "514.83 KB",
+            "Average Size per day ": "82.42 MB"
+          },
+          "estimation": {
+            "1 day   ": "82.42 MB",
+            "7 days  ": "576.94 MB",
+            "14 days ": "1.13 GB",
+            "30 days ": "2.41 GB",
+            "90 days ": "7.24 GB",
+            "180 days": "14.49 GB",
+            "1 year  ": "29.38 GB"
+          }
+        },
+        {
+          "index": "BridgeMac",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "Approute",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 71,
+            "Total records": 71,
+            "Average records per day ": 140,
+            "Average size per record ": "318.03 KB",
+            "Average Size per day ": "43.74 MB"
+          },
+          "estimation": {
+            "1 day   ": "43.74 MB",
+            "7 days  ": "306.20 MB",
+            "14 days ": "612.41 MB",
+            "30 days ": "1.28 GB",
+            "90 days ": "3.84 GB",
+            "180 days": "7.69 GB",
+            "1 year  ": "15.59 GB"
+          }
+        },
+        {
+          "index": "SDRA",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "Aggregated SAIE Summary",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 71,
+            "Total records": 71,
+            "Average records per day ": 140,
+            "Average size per record ": "2.10 KB",
+            "Average Size per day ": "295.95 KB"
+          },
+          "estimation": {
+            "1 day   ": "295.95 KB",
+            "7 days  ": "2.02 MB",
+            "14 days ": "4.05 MB",
+            "30 days ": "8.67 MB",
+            "90 days ": "26.01 MB",
+            "180 days": "52.02 MB",
+            "1 year  ": "105.49 MB"
+          }
+        },
+        {
+          "index": "Device Events",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 69,
+            "Total records": 69,
+            "Average records per day ": 144,
+            "Average size per record ": "126.40 KB",
+            "Average Size per day ": "17.89 MB"
+          },
+          "estimation": {
+            "1 day   ": "17.89 MB",
+            "7 days  ": "125.23 MB",
+            "14 days ": "250.46 MB",
+            "30 days ": "536.70 MB",
+            "90 days ": "1.57 GB",
+            "180 days": "3.14 GB",
+            "1 year  ": "6.38 GB"
+          }
+        },
+        {
+          "index": "Sleofflinereport",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "umts-event-tunnel-sla-change",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "Wlan Client Info",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "UMTS Rest Event",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 1,
+            "Total records": 1,
+            "Average records per day ": 14400000,
+            "Average size per record ": "636 Bytes",
+            "Average Size per day ": "8.75 GB"
+          },
+          "estimation": {
+            "1 day   ": "8.75 GB",
+            "7 days  ": "61.23 GB",
+            "14 days ": "122.47 GB",
+            "30 days ": "262.43 GB",
+            "90 days ": "787.29 GB",
+            "180 days": "1.54 TB",
+            "1 year  ": "3.12 TB"
+          }
+        },
+        {
+          "index": "Flow Log",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "Alarm",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 67,
+            "Total records": 67,
+            "Average records per day ": 149,
+            "Average size per record ": "1.64 KB",
+            "Average Size per day ": "244.28 KB"
+          },
+          "estimation": {
+            "1 day   ": "244.28 KB",
+            "7 days  ": "1.67 MB",
+            "14 days ": "3.34 MB",
+            "30 days ": "7.16 MB",
+            "90 days ": "21.47 MB",
+            "180 days": "42.94 MB",
+            "1 year  ": "87.07 MB"
+          }
+        },
+        {
+          "index": "SiteHealth",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 69,
+            "Total records": 69,
+            "Average records per day ": 144,
+            "Average size per record ": "3.30 KB",
+            "Average Size per day ": "478.79 KB"
+          },
+          "estimation": {
+            "1 day   ": "478.79 KB",
+            "7 days  ": "3.27 MB",
+            "14 days ": "6.55 MB",
+            "30 days ": "14.03 MB",
+            "90 days ": "42.08 MB",
+            "180 days": "84.16 MB",
+            "1 year  ": "170.66 MB"
+          }
+        },
+        {
+          "index": "Urlf",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 71,
+            "Total records": 71,
+            "Average records per day ": 140,
+            "Average size per record ": "779 Bytes",
+            "Average Size per day ": "109.73 KB"
+          },
+          "estimation": {
+            "1 day   ": "109.73 KB",
+            "7 days  ": "768.13 KB",
+            "14 days ": "1.50 MB",
+            "30 days ": "3.21 MB",
+            "90 days ": "9.64 MB",
+            "180 days": "19.29 MB",
+            "1 year  ": "39.11 MB"
+          }
+        },
+        {
+          "index": "Firewall",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 71,
+            "Total records": 71,
+            "Average records per day ": 140,
+            "Average size per record ": "223.89 KB",
+            "Average Size per day ": "30.79 MB"
+          },
+          "estimation": {
+            "1 day   ": "30.79 MB",
+            "7 days  ": "215.56 MB",
+            "14 days ": "431.12 MB",
+            "30 days ": "923.83 MB",
+            "90 days ": "2.71 GB",
+            "180 days": "5.41 GB",
+            "1 year  ": "10.98 GB"
+          }
+        },
+        {
+          "index": "vnf statistics",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "Audit Log",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 69,
+            "Total records": 69,
+            "Average records per day ": 144,
+            "Average size per record ": "3.79 KB",
+            "Average Size per day ": "549.63 KB"
+          },
+          "estimation": {
+            "1 day   ": "549.63 KB",
+            "7 days  ": "3.76 MB",
+            "14 days ": "7.51 MB",
+            "30 days ": "16.10 MB",
+            "90 days ": "48.31 MB",
+            "180 days": "96.61 MB",
+            "1 year  ": "195.91 MB"
+          }
+        },
+        {
+          "index": "Umbrella",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "AppHosting",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "UtdDaqIox",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 71,
+            "Total records": 71,
+            "Average records per day ": 140,
+            "Average size per record ": "438 Bytes",
+            "Average Size per day ": "61.70 KB"
+          },
+          "estimation": {
+            "1 day   ": "61.70 KB",
+            "7 days  ": "431.91 KB",
+            "14 days ": "863.82 KB",
+            "30 days ": "1.81 MB",
+            "90 days ": "5.42 MB",
+            "180 days": "10.85 MB",
+            "1 year  ": "21.99 MB"
+          }
+        },
+        {
+          "index": "Device Configuration",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 67,
+            "Total records": 67,
+            "Average records per day ": 1,
+            "Average size per record ": "22.31 KB",
+            "Average Size per day ": "41.29 KB"
+          },
+          "estimation": {
+            "1 day   ": "41.29 KB",
+            "7 days  ": "289.06 KB",
+            "14 days ": "578.12 KB",
+            "30 days ": "1.21 MB",
+            "90 days ": "3.63 MB",
+            "180 days": "7.26 MB",
+            "1 year  ": "14.72 MB"
+          }
+        },
+        {
+          "index": "IPS Alert",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "Performance Monitor Summary",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 71,
+            "Total records": 71,
+            "Average records per day ": 140,
+            "Average size per record ": "277 Bytes",
+            "Average Size per day ": "39.12 KB"
+          },
+          "estimation": {
+            "1 day   ": "39.12 KB",
+            "7 days  ": "273.86 KB",
+            "14 days ": "547.71 KB",
+            "30 days ": "1.15 MB",
+            "90 days ": "3.44 MB",
+            "180 days": "6.88 MB",
+            "1 year  ": "13.94 MB"
+          }
+        },
+        {
+          "index": "Aggregated SAIE",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 71,
+            "Total records": 71,
+            "Average records per day ": 140,
+            "Average size per record ": "511.77 KB",
+            "Average Size per day ": "70.39 MB"
+          },
+          "estimation": {
+            "1 day   ": "70.39 MB",
+            "7 days  ": "492.74 MB",
+            "14 days ": "985.48 MB",
+            "30 days ": "2.06 GB",
+            "90 days ": "6.19 GB",
+            "180 days": "12.37 GB",
+            "1 year  ": "25.09 GB"
+          }
+        },
+        {
+          "index": "Network-wide Packet Insight",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 1,
+            "Total records": 1,
+            "Average records per day ": 14400000,
+            "Average size per record ": "1.14 KB",
+            "Average Size per day ": "15.59 GB"
+          },
+          "estimation": {
+            "1 day   ": "15.59 GB",
+            "7 days  ": "109.16 GB",
+            "14 days ": "218.31 GB",
+            "30 days ": "467.81 GB",
+            "90 days ": "1.37 TB",
+            "180 days": "2.74 TB",
+            "1 year  ": "5.56 TB"
+          }
+        },
+        {
+          "index": "DeviceHealth",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 69,
+            "Total records": 69,
+            "Average records per day ": 144,
+            "Average size per record ": "5.59 KB",
+            "Average Size per day ": "809.68 KB"
+          },
+          "estimation": {
+            "1 day   ": "809.68 KB",
+            "7 days  ": "5.53 MB",
+            "14 days ": "11.07 MB",
+            "30 days ": "23.72 MB",
+            "90 days ": "71.16 MB",
+            "180 days": "142.33 MB",
+            "1 year  ": "288.60 MB"
+          }
+        },
+        {
+          "index": "Bridge Interface",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "NWPI Raw Flow Data",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "Artstatistics",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "Tracker Statistics",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "umts-event-tunnel-pmtu-change",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "CloudExpress",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "index": "Speed Test",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "table": "SAIE",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 567.05,
+            "Total records": 19842,
+            "Average records per day": 34,
+            "Average size per record": "50 Bytes",
+            "Average Size per day": "1.76 KB"
+          },
+          "estimation": {
+            "1 day   ": "1.76 KB",
+            "7 days  ": "12.29 KB",
+            "14 days ": "24.59 KB",
+            "30 days ": "52.69 KB",
+            "90 days ": "158.06 KB",
+            "180 days": "316.11 KB",
+            "1 year  ": "641.00 KB"
+          }
+        },
+        {
+          "table": "nwpi_agg_metrics",
+          "status": "success",
+          "dataSetInfo": {
+            "Total Days of records": 97.82,
+            "Total records": 13426,
+            "Average records per day": 137,
+            "Average size per record": "47 Bytes",
+            "Average Size per day": "6.48 KB"
+          },
+          "estimation": {
+            "1 day   ": "6.48 KB",
+            "7 days  ": "45.38 KB",
+            "14 days ": "90.76 KB",
+            "30 days ": "194.49 KB",
+            "90 days ": "583.46 KB",
+            "180 days": "1.14 MB",
+            "1 year  ": "2.31 MB"
+          }
+        },
+        {
+          "table": "nwpi_flow_event",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        },
+        {
+          "table": "nwpi_flow",
+          "status": "fail",
+          "message": "Insufficient data to perform calculation"
+        }
+      ]
+    }
+  ]
+}

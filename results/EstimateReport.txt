@@ -1,0 +1,36 @@
+10/26/2022 21:13 
+      Interface: 366 Days with 4.84 MB -scaled-> 196.82666666666665 MB for 9 days
+      QoS: 365 Days with 6.1 MB -scaled-> 247.38888888888889 MB for 9 days
+      Device System Status: 74 Days with 54.18 MB -scaled-> 445.47999999999996 MB for 9 days
+      DPI: 93 Days with 0.00505 MB -scaled-> 0.05218333333333333 MB for 9 days
+      Approute: 364 Days with 5.32 MB -scaled-> 215.16444444444446 MB for 9 days
+      Device Events: 370 Days with 1.37 MB -scaled-> 56.32222222222223 MB for 9 days
+      Alarm: 369 Days with 0.01452 MB -scaled-> 0.59532 MB for 9 days
+      Audit Log: 370 Days with 0.28586 MB -scaled-> 11.752022222222223 MB for 9 days
+      Device Configuration: 368 Days with 0.030010000000000002 MB -scaled-> 1.2270755555555555 MB for 9 days
+      Aggregated DPI: 9 Days with 685.16 MB -scaled-> 685.16 MB for 9 days
+      Network-wide Packet Insight: 98 Days with 0.07123 MB -scaled-> 0.7756155555555556 MB for 9 days
+  757.36 MB Estimate for   1 Branches Online --> 568.02 GB non-scaled ---> 1395.56 GB scaled for 9 days for 750 Branches
+
+01/30/2024 17:19 
+      Performance Monitor: 1 Days with 2.14 MB -scaled-> 0.004553191489361702 MB for 470 days
+      Interface: 71 Days with 44.91 MB -scaled-> 6.7842765957446804 MB for 470 days
+      QoS: 71 Days with 0.17829 MB -scaled-> 0.026933170212765957 MB for 470 days
+      Device System Status: 61 Days with 82.42 MB -scaled-> 10.697063829787234 MB for 470 days
+      Approute: 71 Days with 43.74 MB -scaled-> 6.607531914893618 MB for 470 days
+      Aggregated SAIE Summary: 71 Days with 0.29595 MB -scaled-> 0.04470734042553191 MB for 470 days
+      Device Events: 69 Days with 17.89 MB -scaled-> 2.626404255319149 MB for 470 days
+      UMTS Rest Event: 1 Days with 8750.0 MB -scaled-> 18.617021276595747 MB for 470 days
+      Alarm: 67 Days with 0.24428 MB -scaled-> 0.03482289361702128 MB for 470 days
+      SiteHealth: 69 Days with 0.47879000000000005 MB -scaled-> 0.07029044680851064 MB for 470 days
+      Urlf: 71 Days with 0.10973000000000001 MB -scaled-> 0.016576234042553192 MB for 470 days
+      Firewall: 71 Days with 30.79 MB -scaled-> 4.651255319148936 MB for 470 days
+      Audit Log: 69 Days with 0.54963 MB -scaled-> 0.08069036170212765 MB for 470 days
+      UtdDaqIox: 71 Days with 0.061700000000000005 MB -scaled-> 0.00932063829787234 MB for 470 days
+      Device Configuration: 67 Days with 0.04129 MB -scaled-> 0.005886021276595745 MB for 470 days
+      Performance Monitor Summary: 71 Days with 0.039119999999999995 MB -scaled-> 0.005909617021276595 MB for 470 days
+      Aggregated SAIE: 71 Days with 70.39 MB -scaled-> 10.633382978723404 MB for 470 days
+      Network-wide Packet Insight: 1 Days with 15590.0 MB -scaled-> 33.170212765957444 MB for 470 days
+      DeviceHealth: 69 Days with 0.80968 MB -scaled-> 0.118867914893617 MB for 470 days
+24630.00 MB Estimate for   8 Branches Online --> 2309.06 GB non-scaled --->   8.83 GB scaled for 470 days for 750 Branches
+

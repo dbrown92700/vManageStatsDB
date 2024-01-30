@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!python3
 """
 Copyright (c) 2012 Cisco and/or its affiliates.
 This software is licensed to you under the terms of the Cisco Sample
